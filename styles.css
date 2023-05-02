@@ -1,32 +1,35 @@
-/*  your css code here. If applicable */
-/*  your css code here. If applicable */
-   p:last-child { 
-        color:red;  
-      }  
-   li:nth-child(1) {
-        background-color: white;
-      }
-      li:nth-child(2) {
-        background-color: slategray; 
-      }
-      li:nth-child(3) {
-        background-color: pink;
-      }
-    li:nth-child(4) { 
-        background-color: slategray; 
-	} 
-		li:nth-child(5) {
-        background-color: white;
-		} 
- p:first-child {  
-        background:black; 
-	      color:white;
-      }  
-.para{
-	color:white; 
-	background-color:black;
-	margin:-10px; 
+:root{
+	background-color:skyblue;
 }
-body{
-	background:rgb(135, 206, 235); 
+
+div p:first-child{
+	background-color:black;
+	color:white;
+}
+div p:last-child{
+	color:red;
+}
+
+ul{
+	list-style:none;
+}
+
+ul li:first-child{
+	background-color:white;
+}
+
+ul li:last-child{
+	background-color:white;
+}
+ul li:nth-child(even){
+	background-color:slategray;
+}
+
+
+li :nth-child(2n){
+	background-color:
+}
+
+ul li{
+	background-color:pink;
 }
